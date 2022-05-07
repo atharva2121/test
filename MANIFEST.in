@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include fortest *.css
+recursive-include fortest *.csv
+recursive-include fortest *.html
+recursive-include fortest *.ico
+recursive-include fortest *.js
+recursive-include fortest *.json
+recursive-include fortest *.md
+recursive-include fortest *.png
+recursive-include fortest *.py
+recursive-include fortest *.svg
+recursive-include fortest *.txt
+recursive-exclude fortest *.pyc
